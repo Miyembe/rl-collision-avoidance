@@ -11,7 +11,7 @@ This is a Pytorch implementation of the paper [Towards Optimally Decentralized M
 - [ROS Kinetic](http://wiki.ros.org/kinetic)
 - [mpi4py](https://mpi4py.readthedocs.io/en/stable/)
 - [Stage](http://rtv.github.io/Stage/) --> Use this [instruction](https://github.com/rtv/Stage/blob/master/INSTALL.txt)
-- [PyTorch](http://pytorch.org/) --> Note that this repo has been modifed for non-cuda version.  
+- [PyTorch](http://pytorch.org/) --> Note that this repo was modifed for non-cuda version.  
 
 ## How to train
 Git clone this repo into `catkin_ws/src` and do `catkin_make`. 
