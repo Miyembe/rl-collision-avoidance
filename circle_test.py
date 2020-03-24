@@ -99,7 +99,7 @@ if __name__ == '__main__':
         policy_path = 'policy'
         # policy = MLPPolicy(obs_size, act_size)
         policy = CNNPolicy(frames=LASER_HIST, action_space=2)
-        policy.cuda()
+        # policy.cuda()
         opt = Adam(policy.parameters(), lr=LEARNING_RATE)
         mse = nn.MSELoss()
 
@@ -111,7 +111,7 @@ if __name__ == '__main__':
             print ('####################################')
             print ('############Loading Model###########')
             print ('####################################')
-            state_dict = torch.load(file)
+            state_dict = torch.load(file, map_location=torch.device('cpu'))
             policy.load_state_dict(state_dict)
         else:
             print ('Error: Policy File Cannot Find')
