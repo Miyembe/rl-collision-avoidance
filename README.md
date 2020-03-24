@@ -11,8 +11,7 @@ This is a Pytorch implementation of the paper [Towards Optimally Decentralized M
 - [ROS Kinetic](http://wiki.ros.org/kinetic)
 - [mpi4py](https://mpi4py.readthedocs.io/en/stable/)
 - [Stage](http://rtv.github.io/Stage/) --> Use this [instruction](https://github.com/rtv/Stage/blob/master/INSTALL.txt)
-- [PyTorch](http://pytorch.org/)
-
+- [PyTorch](http://pytorch.org/) --> Note that this repo has been modifed for non-cuda version.  
 
 ## How to train
 Git clone this repo into `catkin_ws/src` and do `catkin_make`. 
@@ -36,7 +35,7 @@ mpiexec -np 50 python circle_test.py
 ```
 
 ## Notice
-This repo is forked from `https://github.com/Acmece/rl-collision-avoidance.git`. You may contact [Jia Pan](https://sites.google.com/site/panjia/) (jpan@cs.hku.hk) for the paper related issues. 
+This repo was forked from `https://github.com/Acmece/rl-collision-avoidance.git`. You may contact [Jia Pan](https://sites.google.com/site/panjia/) (jpan@cs.hku.hk) for the paper related issues. 
 If you find it useful and use it in your project, please consider citing:
 ```
 @misc{Tianyu2018,
