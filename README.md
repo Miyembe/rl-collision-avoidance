@@ -10,7 +10,7 @@ This is a Pytorch implementation of the paper [Towards Optimally Decentralized M
 - python2.7
 - [ROS Kinetic](http://wiki.ros.org/kinetic)
 - [mpi4py](https://mpi4py.readthedocs.io/en/stable/)
-- [Stage](http://rtv.github.io/Stage/)
+- [Stage](http://rtv.github.io/Stage/) --> Use this [instruction](https://github.com/rtv/Stage/blob/master/INSTALL.txt)
 - [PyTorch](http://pytorch.org/)
 
 
