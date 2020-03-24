@@ -15,14 +15,8 @@ This is a Pytorch implementation of the paper [Towards Optimally Decentralized M
 
 
 ## How to train
-Please use the `stage_ros-add_pose_and_crash` package instead of the default package provided by ROS.
-```
-mkdir -p catkin_ws/src
-cp stage_ros-add_pose_and_crash catkin_ws/src
-cd catkin_ws
-catkin_make
-source devel/setup.bash
-```
+Git clone this repo into `catkin_ws/src` and do `catkin_make`. 
+All the following instructions should be executed at this repo folder (i.e. `src/rl-collision-aovidance`). 
 
 To train Stage1, modify the hyper-parameters in `ppo_stage1.py` as you like, and running the following command:
 ```
@@ -42,7 +36,7 @@ mpiexec -np 50 python circle_test.py
 ```
 
 ## Notice
-I am not the author of the paper and not in their group either. You may contact [Jia Pan](https://sites.google.com/site/panjia/) (jpan@cs.hku.hk) for the paper related issues. 
+This repo is forked from `https://github.com/Acmece/rl-collision-avoidance.git`. You may contact [Jia Pan](https://sites.google.com/site/panjia/) (jpan@cs.hku.hk) for the paper related issues. 
 If you find it useful and use it in your project, please consider citing:
 ```
 @misc{Tianyu2018,
